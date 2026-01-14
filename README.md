@@ -4,6 +4,7 @@ Bài thực hành 1:
 
 Bài thực Hành 2:
 1. GIỚI THIỆU BÀI TOÁN
+
   Chương trình bao gồm các chức năng chính:
 -Đếm số sinh viên đạt loại Giỏi
 -Tính điểm trung bình của các điểm hợp lệ
@@ -13,7 +14,9 @@ Bài thực Hành 2:
 Mục tiêu của bài tập là giúp sinh viên làm quen với Unit Testing, JUnit và quy trình phát triển phần mềm chuyên nghiệp.
 
 2. PHÂN TÍCH YÊU CẦU
+
 2.1 Yêu cầu chức năng
+
   Lớp StudentAnalyzer gồm 2 phương thức:
   countExcellentStudents(List<Double> scores)
   Đếm số sinh viên có điểm ≥ 8.0
@@ -24,21 +27,22 @@ Mục tiêu của bài tập là giúp sinh viên làm quen với Unit Testing, 
   Nếu không có điểm hợp lệ, trả về 0
 
 2.2 Yêu cầu kỹ thuật
+
   Sử dụng Java
   Áp dụng vòng lặp để duyệt danh sách điểm
   Kiểm tra dữ liệu đầu vào (validate)
   Viết kiểm thử đơn vị bằng JUnit 5
   
 3. CÀI ĐẶT CHƯƠNG TRÌNH
+
 3.1 Cấu trúc thư mục
-  unit-test/
-  ├── src/
-  │   └── StudentAnalyzer.java
-  ├── test/
-  │   └── StudentAnalyzerTest.java
-  └── README.md
+
+  unit-test/ src/ StudentAnalyzer.java     
+  unit-test/test/StudentAnalyzerTest.java
+  unit-test/README.md
 
 3.2 Cài đặt lớp StudentAnalyzer
+
 Lớp StudentAnalyzer được xây dựng để xử lý dữ liệu điểm số.
 Trong quá trình cài đặt:
   -Sử dụng vòng lặp for để duyệt danh sách
@@ -48,10 +52,13 @@ Trong quá trình cài đặt:
 <img width="586" height="316" alt="image" src="https://github.com/user-attachments/assets/25a61100-7ccb-4b15-839f-3c7c67849a55" />
 
 4. KIỂM THỬ ĐƠN VỊ VỚI JUNIT
+
 4.1 Giới thiệu JUnit
+
   JUnit là một framework phổ biến dùng để kiểm thử đơn vị trong Java, giúp phát hiện lỗi sớm và đảm bảo chất lượng phần mềm.
 
 4.2 Các trường hợp kiểm thử
+
   -Các ca kiểm thử được xây dựng bao gồm:
   -Trường hợp bình thường
   -Danh sách có điểm hợp lệ và không hợp lệ
@@ -62,6 +69,7 @@ Trong quá trình cài đặt:
   -Điểm âm hoặc lớn hơn 10
   
 4.3 Kết quả kiểm thử
+
   -Kết quả chạy kiểm thử:
   -Tất cả các test case đều PASS
   -Chương trình hoạt động đúng theo yêu cầu đề bài
@@ -71,6 +79,7 @@ Trong quá trình cài đặt:
 5. QUẢN LÝ MÃ NGUỒN VỚI GITHUB
 
 5.1 Sử dụng Issue
+
   Đã tạo các Issue để quản lý công việc:
   -Issue #1: Viết hàm countExcellentStudents
   -Issue #2: Viết hàm calculateValidAverage
@@ -78,6 +87,7 @@ Trong quá trình cài đặt:
   -Issue #4: Viết README
 
 5.2 Gắn commit với Issue
+
   Trong quá trình commit, sinh viên sử dụng cú pháp #issue_number, fixes, closes để liên kết commit với Issue tương ứng.
   Ví dụ:
             "feat: implement calculateValidAverage() closes #2"
