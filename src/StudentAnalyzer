@@ -55,4 +55,3 @@ public class StudentAnalyzer {
         return sum / count;
     }
 }
-
