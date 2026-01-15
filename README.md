@@ -49,7 +49,7 @@ Trong quá trình cài đặt:
   -Áp dụng điều kiện kiểm tra để loại bỏ dữ liệu không hợp lệ
   -Đảm bảo chương trình không phát sinh lỗi khi danh sách rỗng
 
-<img width="586" height="316" alt="image" src="https://github.com/user-attachments/assets/25a61100-7ccb-4b15-839f-3c7c67849a55" />
+<img width="905" height="583" alt="image" src="https://github.com/user-attachments/assets/48f05bd4-a837-4c8a-8fc2-54f7e6b5681b" />
 
 4. KIỂM THỬ ĐƠN VỊ VỚI JUNIT
 
