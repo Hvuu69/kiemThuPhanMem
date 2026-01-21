@@ -1,4 +1,4 @@
-Bài thực hành 1: 
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/79647ef4-2270-4d96-b078-c264f872c6d9" />Bài thực hành 1: 
 
 <img width="1882" height="1017" alt="Screenshot 2026-01-08 103207" src="https://github.com/user-attachments/assets/62543a83-95ae-48bd-a4f7-04f943b77ca6" />
 
@@ -91,3 +91,58 @@ Trong quá trình cài đặt:
   Trong quá trình commit, sinh viên sử dụng cú pháp #issue_number, fixes, closes để liên kết commit với Issue tương ứng.
   Ví dụ:
             "feat: implement calculateValidAverage() closes #2"
+
+
+Bài thực hành 3: Bài tập thực hành kiểm thử tự động End-to-End với Cypress
+
+1. Mục tiêu bài thực hành
+
+Bài thực hành nhằm làm quen với kiểm thử tự động end-to-end (E2E) bằng công cụ Cypress, thông qua việc xây dựng và thực thi các kịch bản kiểm thử trên một website mẫu. Qua đó hiểu được quy trình viết test case, chạy kiểm thử tự động và đánh giá kết quả kiểm thử.
+
+2. Công cụ và môi trường sử dụng
+
+Node.js (phiên bản 14 trở lên)
+-Cypress
+-Visual Studio Code
+-Git & GitHub (hoặc GitLab)
+-Website kiểm thử: https://www.saucedemo.com
+
+3. Nội dung thực hành
+
+3.1 Cài đặt Cypress
+<img width="559" height="362" alt="image" src="https://github.com/user-attachments/assets/bc443bbb-81b1-417d-8f2c-20947c912ffb" />
+Khởi tạo dự án với npm
+<img width="508" height="193" alt="image" src="https://github.com/user-attachments/assets/b3ac1621-48e6-4ff9-b046-70275f8ed119" />
+
+-Cài đặt Cypress bằng npm
+<img width="1480" height="981" alt="image" src="https://github.com/user-attachments/assets/2ad0a952-7ad4-4db2-a725-6a95df3637ca" />
+
+-Mở Cypress và tạo cấu trúc thư mục kiểm thử
+
+-3.2 Các kịch bản kiểm thử đã thực hiện
+
+-Kiểm thử đăng nhập thành công với tài khoản hợp lệ
+-Kiểm thử đăng nhập thất bại với tài khoản không hợp lệ
+-Kiểm thử thêm sản phẩm vào giỏ hàng
+-Kiểm thử sắp xếp sản phẩm theo giá tăng dần
+-Kiểm thử xóa sản phẩm khỏi giỏ hàng
+-Kiểm thử quy trình thanh toán (checkout)
+-Các kịch bản được viết trong các file:
+
+-login_spec.cy.js
+
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/a43102aa-bbdc-4e76-979e-eeecb1e33e71" />
+
+-cart_spec.cy.js
+
+<img width="1910" height="1012" alt="image" src="https://github.com/user-attachments/assets/17daed1f-9482-4503-82bb-7c77f39ae92c" />
+
+4. Kết quả đạt được
+
+-Tất cả các kịch bản kiểm thử đều chạy thành công trên Cypress
+-Xác minh đúng các chức năng chính của website: đăng nhập, giỏ hàng và thanh toán
+-Kết quả chạy kiểm thử được lưu dưới dạng ảnh chụp màn hình
+
+5. Kết luận
+
+Qua bài thực hành này, nắm được cách cài đặt và sử dụng Cypress để viết kiểm thử tự động end-to-end. Bài thực hành giúp hiểu rõ hơn về kiểm thử phần mềm, giảm thiểu lỗi thủ công và nâng cao chất lượng ứng dụng web.
