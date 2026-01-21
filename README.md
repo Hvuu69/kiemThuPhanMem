@@ -110,11 +110,15 @@ Node.js (phiên bản 14 trở lên)
 3. Nội dung thực hành
 
 3.1 Cài đặt Cypress
+
 <img width="559" height="362" alt="image" src="https://github.com/user-attachments/assets/bc443bbb-81b1-417d-8f2c-20947c912ffb" />
+
 Khởi tạo dự án với npm
+
 <img width="508" height="193" alt="image" src="https://github.com/user-attachments/assets/b3ac1621-48e6-4ff9-b046-70275f8ed119" />
 
 -Cài đặt Cypress bằng npm
+
 <img width="1480" height="981" alt="image" src="https://github.com/user-attachments/assets/2ad0a952-7ad4-4db2-a725-6a95df3637ca" />
 
 -Mở Cypress và tạo cấu trúc thư mục kiểm thử
